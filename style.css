@@ -235,12 +235,17 @@ background-color: #7a74b35b;
     border-radius: 50%;
 }
 
-.menu-item{
-   display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    gap: 15px;
-    margin-bottom: 10px;
+
+.menu-item img{
+  width: 45px;
+  height: auto;
+}
+
+.Appetizers{
+  display: grid;
+  grid-template-columns:repeat(2,);
+  gap: 15px;
+  align-items: start;
 }
 
 *{
@@ -249,4 +254,8 @@ background-color: #7a74b35b;
 
 html,body{
     height: 100%;
+}
+
+.chef-story img{
+
 }
