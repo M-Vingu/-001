@@ -206,10 +206,11 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 gap: 32px;
 margin-top: 40px;
+background-color: #7a74b35b;
 }
 
 .sections >div{
-    background: white;
+    background: #7a74b35b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -232,6 +233,14 @@ margin-top: 40px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
+}
+
+.menu-item{
+   display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 *{
